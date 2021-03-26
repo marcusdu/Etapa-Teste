@@ -1,0 +1,217 @@
+/* ------------------------------ */
+/* ------ Início Col-10 ----------*/
+/* ------------------------------ */
+#selectarea {
+  background-color: #e5e5e5;
+}
+.btn-light {
+  width: 35px;
+  height: 37px;
+}
+.btnbuscar {
+  height: 48px;
+}
+.bi,
+.textocolor {
+  color: #333;
+}
+.menunav {
+  height: 60px;
+  border-radius: 10px;
+}
+.menu4 {
+  margin-top: 20px;
+}
+.sino {
+  margin-left: 115px;
+}
+a .link {
+  text-decoration: none;
+}
+.nome {
+  margin-bottom: -20px;
+  color: #333;
+}
+.nomepequeno {
+  margin-left: 205px;
+  font-size: 12px;
+  color: #333;
+}
+.foto {
+  margin-left: 275px;
+  margin-top: -75px;
+}
+/* ------------------------------ */
+/* ------ Fim Col-10 -------------*/
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ------ Início Coluna Filtros --*/
+/* ------------------------------ */
+.coluna1 {
+  height: 1145px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.linha {
+  border-left: 2px solid rgb(170, 170, 170);
+}
+.gap {
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.textocheck {
+  font-size: 12px;
+  font-family: montserrat;
+}
+/* ------------------------------ */
+/* ------ Fim Coluna Filtros ---- */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ------ Início Avaliação ------ */
+/* ------------------------------ */
+
+.star input {
+  display: none;
+}
+.star label {
+  font-size: 20px;
+  color: rgb(209, 204, 204);
+  padding: 5px;
+  float: right;
+  transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+  color: #444;
+}
+input:checked ~ label {
+  color: #444;
+}
+
+/* ------------------------------ */
+/* -------- Fim Avaliação ------- */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---- Inicio Coluna Card ------ */
+/* ------------------------------ */
+.textsub {
+  font-family: montserrat;
+  font-size: 12px;
+  margin-top: -5px;
+}
+.textlorem {
+  font-size: 14px;
+  font-family: montserrat;
+}
+.botaosuperior {
+  margin-left: 100px;
+}
+.botaoinferior {
+  background-color: #c3c5c5;
+  width: 150px;
+  margin-left: 10px;
+}
+.botaoinferior2 {
+  margin-top: 8px;
+  width: 150px;
+  margin-left: 10px;
+}
+.iconcomprar,
+.starzinha {
+  color: white;
+}
+/* ------------------------------ */
+/* ----- Fim Coluna Card -------- */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* -------- Inicio Footer ------- */
+/* ------------------------------ */
+.paginacao {
+  margin-left: 280px;
+}
+ul.pagination {
+  background: #fff;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+ul li.pageNumber {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+ul li.pageNumber:hover a,
+ul li.pageNumber.active a {
+  background: #333;
+  color: #fff;
+}
+ul li:first-child {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+ul li:last-child {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.pagination {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.pagination ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  border-radius: 50px;
+}
+.pagination ul li {
+  color: #060e0d;
+  list-style: none;
+  line-height: 45px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+.pagination ul li.numb {
+  list-style: none;
+  background-color: #c8cccc;
+  height: 45px;
+  width: 45px;
+  margin: 0 3px;
+  line-height: 45px;
+  border-radius: 50%;
+}
+.pagination ul li.numb.first {
+  margin: 0px 5px 0 30px;
+}
+.pagination ul li.numb.last {
+  margin: 0px 30px 0 5px;
+}
+.pagination ul li.btn {
+  padding: 0 15px;
+  border-radius: 60px;
+}
+.pagination li.active,
+.pagination ul li.numb:hover,
+.pagination ul li:first-child:hover,
+.pagination ul li:last-child:hover {
+  color: rgb(12, 0, 0);
+  background: #808383;
+}
+/* ------------------------------ */
+/* --------- Fim Footer --------- */
+/* ------------------------------ */

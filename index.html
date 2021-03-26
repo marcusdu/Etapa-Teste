@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Teste Ignição Digital ">
+    <meta name="keywords" content="Figma, desenvolvimento front end, teste, ignição digital, bootstrap, css, html, firebase">
+    <title>Teste</title>
+
+<!-- Css File -->
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+<!-- Fim Css File -->
+
+<body style="background-color: #E5E5E5;;">
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-2 card">
+                <!-- Inicio Brand Logo -->
+                <div class="logo mt-4 ml-4">
+                  <img src="img/brand.png" alt="brand" width="140">
+                </div>
+                <!-- Fim Brand Logo -->
+                <!-- Inicio caixa de input -->
+                <div class="input-group mb-3 mt-4">
+                  <span class="input-group-text bi bi-house-door" id="inputGroup-sizing-default">Área do Cliente <div  class="bi bi-chevron-down dropdown-toggle-split"></div></span> 
+                </div>
+
+                  <!-- Inicio caixa de input -->
+
+                  
+
+                <!--  Inicio Menu Vertical -->
+                <ul class="nav flex-column">
+                  <p id="p3" class="nav-link text-uppercase mt-5">Apps</p>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#"><i class="bi bi-envelope mr-2"></i>Email</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#"><i class="bi bi-chat-left mr-2"></i>Conversar</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#"><i class="bi bi-check2-square mr-2"></i>Todo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#"><i class="bi bi-calendar4 mr-2"></i>Calendário</a>
+                    </li>
+                    <li class="nav-item"></li>
+                  </ul>
+                  <!--  Fim Menu Vertical -->
+            </div>
+
+
+
+
+            <div class="col-10">
+                <div class="row">
+                    <section class="container">
+                        <!--  Inicio Menu Horizontal -->
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light menunav mt-4">
+                          <div class="col-8">
+                            <div class="nav-item">
+                              <div class="nav-link">
+                                <a href="#"><i class="bi bi-check2-square mx-3"></i></a>
+                                <a href="#"><i class="bi bi-chat-left mx-3"></i></a>
+                                <a href="#"><i class="bi bi-envelope mx-3"></i></a>
+                                <a href="#"><i class="bi bi-calendar4 mx-3"></i></a>
+                                <a href="#"><i class="bi bi-star mx-3"></i></a>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="col-4 menu4">
+                            <div class="nav-item">
+                              <div class="nav-link mt-1">
+                                <a href="#"><i class="bi bi-bell sino"></i></a>
+                                <a href="#"><i class="bi bi-search mx-3"></i></a>
+                                
+                                <a>
+                                  <span id="4" class="p-2 bd-highlight nome">Maria Elza</span>
+                                  <div class="bd-highlight nomepequeno">Cliente Vip</div>
+                                </a>
+                                <a>
+                                  <img src="img/foto perfil.png" alt="perfil" class="rounded-circle foto">
+                                </a>
+                              </div>
+                            </div>
+                            
+                          </div>
+                      </nav>
+                        <!--  Fim Menu Horizontal -->
+                    </section>
+                </div>
+                <div class="row">
+                    <section class="container-fluid">
+                      <!--  Inicio Menu Breadcrumb -->
+                      <div class="row">
+                        <div class="col-10">
+                          <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb" style="background-color: #E5E5E5;;">
+                              <li class="textocolor">Resultados</li>
+                              <li class="ml-4 textocolor">|</li>
+                              <li class="mx-2 textocolor"><a href="#"><i class="bi bi-house-door"></i></a></li>
+                              <li class="mr-1 textocolor"><a href="#"><i class="bi bi-chevron-double-right"></i></a></li>
+                              <li>Cursos</li>
+                            </ol>
+                          </nav>
+                        </div>
+                        <div class="col-2 mt-2 d-flex justify-content-end">
+                          <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z" fill="#717171"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 23C21.8807 23 23 21.8807 23 20.5C23 19.1193 21.8807 18 20.5 18C19.1193 18 18 19.1193 18 20.5C18 21.8807 19.1193 23 20.5 23Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.0545 23.4545C25.8317 23.9594 25.9386 24.5491 26.3245 24.9436L26.3736 24.9927C26.6809 25.2997 26.8536 25.7161 26.8536 26.1505C26.8536 26.5848 26.6809 27.0013 26.3736 27.3082C26.0667 27.6155 25.6502 27.7881 25.2159 27.7881C24.7816 27.7881 24.3651 27.6155 24.0582 27.3082L24.0091 27.2591C23.6146 26.8732 23.0249 26.7663 22.52 26.9891C22.0254 27.2011 21.704 27.6865 21.7018 28.2245V28.3636C21.7018 29.2674 20.9692 30 20.0655 30C19.1617 30 18.4291 29.2674 18.4291 28.3636V28.29C18.4161 27.7358 18.0657 27.2459 17.5455 27.0545C17.0406 26.8317 16.4509 26.9386 16.0564 27.3245L16.0073 27.3736C15.7003 27.6809 15.2839 27.8536 14.8495 27.8536C14.4152 27.8536 13.9987 27.6809 13.6918 27.3736C13.3845 27.0667 13.2119 26.6502 13.2119 26.2159C13.2119 25.7816 13.3845 25.3651 13.6918 25.0582L13.7409 25.0091C14.1268 24.6146 14.2337 24.0249 14.0109 23.52C13.7989 23.0254 13.3135 22.704 12.7755 22.7018H12.6364C11.7326 22.7018 11 21.9692 11 21.0655C11 20.1617 11.7326 19.4291 12.6364 19.4291H12.71C13.2642 19.4161 13.7541 19.0657 13.9455 18.5455C14.1683 18.0406 14.0614 17.4509 13.6755 17.0564L13.6264 17.0073C13.3191 16.7003 13.1464 16.2839 13.1464 15.8495C13.1464 15.4152 13.3191 14.9987 13.6264 14.6918C13.9333 14.3845 14.3498 14.2119 14.7841 14.2119C15.2184 14.2119 15.6349 14.3845 15.9418 14.6918L15.9909 14.7409C16.3854 15.1268 16.9751 15.2337 17.48 15.0109H17.5455C18.04 14.7989 18.3615 14.3135 18.3636 13.7755V13.6364C18.3636 12.7326 19.0963 12 20 12C20.9037 12 21.6364 12.7326 21.6364 13.6364V13.71C21.6385 14.2481 21.96 14.7335 22.4545 14.9455C22.9594 15.1683 23.5491 15.0614 23.9436 14.6755L23.9927 14.6264C24.2997 14.3191 24.7161 14.1464 25.1505 14.1464C25.5848 14.1464 26.0013 14.3191 26.3082 14.6264C26.6155 14.9333 26.7881 15.3498 26.7881 15.7841C26.7881 16.2184 26.6155 16.6349 26.3082 16.9418L26.2591 16.9909C25.8732 17.3854 25.7663 17.9751 25.9891 18.48V18.5455C26.2011 19.04 26.6865 19.3615 27.2245 19.3636H27.3636C28.2674 19.3636 29 20.0963 29 21C29 21.9037 28.2674 22.6364 27.3636 22.6364H27.29C26.7519 22.6385 26.2665 22.96 26.0545 23.4545Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+
+                        </div>
+                      </div>
+                      <!--  Fim Menu Breadcrumb -->
+                    </section>
+                </div>
+                <div class="row">
+                    <!--  Inicio Menu Informações -->
+                    <section class="container-fluid">
+                      <div class="row">
+                        <div class="col-3 mt-2 ">
+                          Filtros
+                        </div>
+                        <div class="col-6 mt-2">
+                          200 resultados encontrados
+                        </div>
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-md-8">
+                              <div class="form-group">
+                                <select id="Select" class="form-control">
+                                  <option>Listagem</option>
+                                </select>
+                              </div>
+                            </div> 
+                              <div class="col-md-2 d-flex align-items-center justify-content-center">
+                                <span class="bi bi-grid btn btn-light d-flex align-items-center justify-content-center mb-3 mr-3" type="button" data-bs-toggle="dropdown" aria-expanded="false"></span>
+                              </div>
+    
+                              <div class="col-md-2 d-flex align-items-center justify-content-end">
+                                <span class="bi bi-list btn btn-light d-flex align-items-center justify-content-center mb-3" type="button" data-bs-toggle="dropdown" aria-expanded="false"></span>
+                              </div>
+
+                        </div> 
+                        </div>
+                        
+                      </div>
+                    </section>
+                    <!--  Inicio Menu Informações  -->
+                </div>
+                    <div class="row">
+                            <!-- Inicio Coluna Filtros-->
+                            <div class="col-3"> 
+                              <div class="container coluna1" style="background-color: rgb(255, 255, 255);">
+
+                                <!--   Inicio Radio   -->
+                                <div class="font-weight-bold">Preços</div>
+                                <div class="custom-control custom-radio">
+                                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                  <label class="custom-control-label mt-4" for="customRadio1">R$10</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadio2">R$10-$100</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadio2">R$100-$500</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadio1">R$500</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadio1">Todos</label>
+                                </div>
+                                <!--   Fim Radio   -->
+
+                                <!--   Inicio Range   -->
+                                <div class="gap mt-4 mb-4"></div>
+                                <div class="font-weight-bold mb-4">Valores </div>
+                                <label for="customRange1">1.99 - 4098</label>
+                                <input type="range" class="custom-range" id="customRange1">
+                                <!--   Fim Range   -->
+
+                                <!--   Inicio Checkbox   -->
+                                <div class="gap mt-4 mb-5"></div>
+                                <div class="font-weight-bold mb-4">Categorias</div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label textocheck mr-4 " for="customCheck1">Érico Rocha</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label textocheck" for="customCheck1">Desafio 6 em 7</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label textocheck" for="customCheck1">Fórmula de Lançamento</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label textocheck" for="customCheck1">KlickPages</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label textocheck" for="customCheck1">Aúdios</label>
+                                </div>
+                                <!--   Fim Checkbox   -->
+
+                                <!--   Inicio Rating   -->
+                                <div class="gap mt-4 mb-5"></div>
+                                <div class="font-weight-bold">Avaliação</div>
+                                <div class="row">
+                                <div class="col-9 d-flex justify-content-start">
+                                <div class="star">
+                                  <input type="radio" name="rate" id="rate-1" />
+                                  <label for="rate-1" class="bi bi-star-fill"></label>
+                                  <input type="radio" name="rate" id="rate-2" />
+                                  <label for="rate-2" class="bi bi-star-fill"></label>
+                                  <input type="radio" name="rate" id="rate-3" />
+                                  <label for="rate-3" class="bi bi-star-fill"></label>
+                                  <input type="radio" name="rate" id="rate-4" />
+                                  <label for="rate-4" class="bi bi-star-fill"></label>
+                                  <input type="radio" name="rate" id="rate-5" />
+                                  <label for="rate-5" class="bi bi-star-fill"></label>
+                                </div>
+                                </div>
+                                <div class="col-3 mt-2">
+                                  <div class="float-end">8500</div>
+                                </div>
+
+                                <div class="col-9 d-flex justify-content-start">
+                                  <div class="star">
+                                    <input type="radio" name="rate" id="rate-1" />
+                                    <label for="rate-1" class="bi bi-star-fill"></label>
+                                    <input type="radio" name="rate" id="rate-2" />
+                                    <label for="rate-2" class="bi bi-star-fill"></label>
+                                    <input type="radio" name="rate" id="rate-3" />
+                                    <label for="rate-3" class="bi bi-star-fill"></label>
+                                    <input type="radio" name="rate" id="rate-4" />
+                                    <label for="rate-4" class="bi bi-star-fill"></label>
+                                    <input type="radio" name="rate" id="rate-5" />
+                                    <label for="rate-5" class="bi bi-star-fill"></label>
+                                  </div>
+                                  </div>
+                                  <div class="col-3 mt-2">
+                                    <div class="float-end">3250</div>
+                                  </div>
+
+                                  <div class="col-9 d-flex justify-content-start">
+                                    <div class="star">
+                                      <input type="radio" name="rate" id="rate-1" />
+                                      <label for="rate-1" class="bi bi-star-fill"></label>
+                                      <input type="radio" name="rate" id="rate-2" />
+                                      <label for="rate-2" class="bi bi-star-fill"></label>
+                                      <input type="radio" name="rate" id="rate-3" />
+                                      <label for="rate-3" class="bi bi-star-fill"></label>
+                                      <input type="radio" name="rate" id="rate-4" />
+                                      <label for="rate-4" class="bi bi-star-fill"></label>
+                                      <input type="radio" name="rate" id="rate-5" />
+                                      <label for="rate-5" class="bi bi-star-fill"></label>
+                                    </div>
+                                    </div>
+                                    <div class="col-3 mt-2">
+                                      <div class="float-end">1120</div>
+                                    </div>
+                                </div>
+                                <!--   Fim Rating   -->
+
+                                <!--   Fim Botão Filtro   -->
+                                <div class="col-12 mt-3 ml-4">
+                                  <button type="button" class="btn btn-secondary text-uppercase">Limpar Filtros</button>
+                                </div>
+                                <!--   Fim Botão Filtro   -->
+
+                                
+                            </div><!-- fim coluna1-->
+                            </div><!-- col-3 -->                            
+                            <!-- Fim Coluna Filtros-->
+
+                            <!--  Inicio Coluna Cards  -->
+                            <div class="col-9">
+                              <!--  Inicio Busca  -->
+                              <div class="input-group mb-2">
+                                <input type="text" placeholder="Buscar" class="form-control form-control-lg">
+                                <span class="bi bi-search btn btn-light d-flex align-items-center justify-content-center btnbuscar" type="button" data-bs-toggle="dropdown" aria-expanded="false"></span>
+                              </div>
+                              <!--  Fim Busca  -->
+                          <div class="container">
+
+                            <!--  Inicio Card 5  -->
+                            <div class="row">
+                                  <div class="col-12 card mt-1">
+                                    <div class="row">
+                                      <div class="col-md-3">
+                                        <img src="img/beats-headphones.jpg" class="img-fluid pt-3 pb-3">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <h6 class="card-title mt-4 text-uppercase ">Fórmula de Lançamento</h6>
+                                        <p class="textsub">Por Érico Rocha</p>
+                                        <p class="textlorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                          a type specimen book.</p>
+                                      </div>
+                                      <div class="col-md-3 linha">
+                                          <div class="row ">
+                                                <div class="container">
+                                                  <div class="btn btn-secondary mt-3 d-flex justify-content-end botaosuperior">3.4<i class="bi bi-star starzinha pl-2"></i></div>
+                                                  <p class="preco d-flex align-items-center justify-content-center mt-3">R$ 2500</p>
+                                                  <button type="button" class="btn botaoinferior" style="background-color: rgb(197, 196, 196);"><i class="bi bi-heart pr-2"></i>AMEI</button>
+                                                  <button type="button" class="btn btn-secondary botaoinferior2"><i class="bi bi-bag-dash pr-2 iconcomprar"></i>COMPRAR</button>                           
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-12 card mt-3">
+                                    <div class="row">
+                                      <div class="col-md-3">
+                                        <img src="img/beats-headphones.jpg" class="img-fluid pt-3 pb-3">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <h6 class="card-title mt-4 text-uppercase ">Fórmula de Lançamento</h6>
+                                        <p class="textsub">Por Érico Rocha</p>
+                                        <p class="textlorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                          a type specimen book.</p>
+                                      </div>
+                                      <div class="col-md-3 linha">
+                                          <div class="row ">
+                                                <div class="container">
+                                                  <div class="btn btn-secondary mt-3 d-flex justify-content-end botaosuperior">3.4<i class="bi bi-star starzinha pl-2"></i></div>
+                                                  <p class="preco d-flex align-items-center justify-content-center mt-3">R$ 2500</p>
+                                                  <button type="button" class="btn botaoinferior" style="background-color: rgb(197, 196, 196);"><i class="bi bi-heart pr-2"></i>AMEI</button>
+                                                  <button type="button" class="btn btn-secondary botaoinferior2"><i class="bi bi-bag-dash pr-2 iconcomprar"></i>COMPRAR</button>                           
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-12 card mt-3">
+                                    <div class="row">
+                                      <div class="col-md-3">
+                                        <img src="img/beats-headphones.jpg" class="img-fluid pt-3 pb-3">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <h6 class="card-title mt-4 text-uppercase ">Fórmula de Lançamento</h6>
+                                        <p class="textsub">Por Érico Rocha</p>
+                                        <p class="textlorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                          a type specimen book.</p>
+                                      </div>
+                                      <div class="col-md-3 linha">
+                                          <div class="row ">
+                                                <div class="container">
+                                                  <div class="btn btn-secondary mt-3 d-flex justify-content-end botaosuperior">3.4<i class="bi bi-star starzinha pl-2"></i></div>
+                                                  <p class="preco d-flex align-items-center justify-content-center mt-3">R$ 2500</p>
+                                                  <button type="button" class="btn botaoinferior" style="background-color: rgb(197, 196, 196);"><i class="bi bi-heart pr-2"></i>AMEI</button>
+                                                  <button type="button" class="btn btn-secondary botaoinferior2"><i class="bi bi-bag-dash pr-2 iconcomprar"></i>COMPRAR</button>                           
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-12 card mt-3">
+                                    <div class="row">
+                                      <div class="col-md-3">
+                                        <img src="img/beats-headphones.jpg" class="img-fluid pt-3 pb-3">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <h6 class="card-title mt-4 text-uppercase ">Fórmula de Lançamento</h6>
+                                        <p class="textsub">Por Érico Rocha</p>
+                                        <p class="textlorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                          a type specimen book.</p>
+                                      </div>
+                                      <div class="col-md-3 linha">
+                                          <div class="row ">
+                                                <div class="container">
+                                                  <div class="btn btn-secondary mt-3 d-flex justify-content-end botaosuperior">3.4<i class="bi bi-star starzinha pl-2"></i></div>
+                                                  <p class="preco d-flex align-items-center justify-content-center mt-3">R$ 2500</p>
+                                                  <button type="button" class="btn botaoinferior" style="background-color: rgb(197, 196, 196);"><i class="bi bi-heart pr-2"></i>AMEI</button>
+                                                  <button type="button" class="btn btn-secondary botaoinferior2"><i class="bi bi-bag-dash pr-2 iconcomprar"></i>COMPRAR</button>                           
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-12 card mt-3">
+                                    <div class="row">
+                                      <div class="col-md-3">
+                                        <img src="img/beats-headphones.jpg" class="img-fluid pt-3 pb-3">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <h6 class="card-title mt-4 text-uppercase ">Fórmula de Lançamento</h6>
+                                        <p class="textsub">Por Érico Rocha</p>
+                                        <p class="textlorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                          a type specimen book.</p>
+                                      </div>
+                                      <div class="col-md-3 linha">
+                                          <div class="row ">
+                                                <div class="container">
+                                                  <div class="btn btn-secondary mt-3 d-flex justify-content-end botaosuperior">3.4<i class="bi bi-star starzinha pl-2"></i></div>
+                                                  <p class="preco d-flex align-items-center justify-content-center mt-3">R$ 2500</p>
+                                                  <button type="button" class="btn botaoinferior" style="background-color: rgb(197, 196, 196);"><i class="bi bi-heart pr-2"></i>AMEI</button>
+                                                  <button type="button" class="btn btn-secondary botaoinferior2"><i class="bi bi-bag-dash pr-2 iconcomprar"></i>COMPRAR</button>                           
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+
+
+                            </div>
+                          </div>
+
+                            </div><!--col-9-->
+                    <!--  Inicio Coluna Cards  -->
+
+                  </div><!-- col-10 -->
+
+                    <!-- Footer -->
+                  <div class="container">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="pagination">
+                          <ul class="d-flex align-items-center justify-content-center paginacao"> <!-- vem do  javascript --> </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+        </div>
+</section>
+
+
+<!--   Javascritp File  -->
+
+<script src="main.js"></script>
+
+</body>
+</head>
+</html>
